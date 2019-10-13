@@ -134,7 +134,7 @@ def main(argv):
         found, index = parse_response(response)
         if found:
           print(bcolors.OKGREEN + "--=[User found! Success! " + user + "/" + passwords[index] + "]=--" + bcolors.ENDC)
-          print(bcolors.OKGREEN + "--=[Brute Force Amplification Attack Successful!]=--" + bcolors.ENDC)
+          print(bcolors.OKGREEN + "--=[Successful!]=--" + bcolors.ENDC)
           sys.exit(0)
         else:
           print(bcolors.FAIL + "--=[Tried: " + str(iterations * 1000) + " passwords]=--" + bcolors.ENDC)
@@ -148,7 +148,7 @@ def main(argv):
     found, index = parse_response(response)
     if found:
       print(bcolors.OKGREEN + "--=[User found! Success! " + user + "/" + passwords[index] + "]=--" + bcolors.ENDC)
-      print(bcolors.OKGREEN + "--=[Brute Force Amplification Attack Successful!]=--" + bcolors.ENDC)
+      print(bcolors.OKGREEN + "--=[Successful!]=--" + bcolors.ENDC)
       sys.exit(0)
 
   print(bcolors.FAIL + "--=[Brute force failed]=--" + bcolors.ENDC)
