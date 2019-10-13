@@ -21,7 +21,7 @@ Try adding 'www' if nothing works.
 ```
 
 ## Demo
-{ %highlight bash% }
+```bash
                     __     __     __    __     _____       _____      _____      ____                 
                    (_ \   / _)    \ \  / /    (_   _)     (   __ \   (  __ \    / ___)                
                      \ \_/ /      () \/ ()      | |        ) (__) )   ) )_) )  / /                    
@@ -62,4 +62,4 @@ Try adding 'www' if nothing works.
 --=[Tried: 5000 passwords]=--
 --=[User found! Success! elliot/ER28-0652]=--
 --=[Brute Force Amplification Attack Successful!]=--
-{ %endhighlight% }
+```
