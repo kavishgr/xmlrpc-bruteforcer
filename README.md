@@ -19,3 +19,6 @@ xmlrpcbruteforce.py http://wordpress.org/xmlrpc.php passwords.txt userlist.txt
 
 Try adding 'www' if nothing works.
 ```
+
+## Demo
+<img src="https://i.imgur.com/xgaojFM.png">
