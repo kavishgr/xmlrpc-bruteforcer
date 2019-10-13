@@ -1,2 +1,1 @@
-# xmlrpc-bruteforcer
-An XMLRPC brute forcer targeting Wordpress.
+<p align="center"><img src="https://i.imgur.com/VZ6dduq.png"></p>
