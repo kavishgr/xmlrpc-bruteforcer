@@ -16,19 +16,17 @@
 ```bash
 python3 xmlrcpbruteforce.py http://wordpress.org/xmlrpc.php passwords.txt username
 python3 xmlrpcbruteforce.py http://wordpress.org/xmlrpc.php passwords.txt userlist.txt
-
-Try adding 'www' if nothing works.
 ```
+## Bugs
+
+If you get an ```xml.etree.ElementTree.ParseError```:
+
+* Did you forget to add 'xmlrpc' in the url ?
+* Try to add or remove 'https' or 'www'.
+
+I'm working on the Exception Handling. Will fix it soon.
 
 ## Demo
 
 <img src="https://i.imgur.com/4XxCtVL.png">
 
-## Bugs
-
-If you get an ```xml.etree.ElementTree.ParseError```:
-
-1. Did you forget to add 'xmlrpc' in the url ?
-2. or try to add or remove 'https' or 'www'.
-
-I'm working on the Exception Handling. Will fix it soon.
