@@ -23,3 +23,12 @@ Try adding 'www' if nothing works.
 ## Demo
 
 <img src="https://i.imgur.com/4XxCtVL.png">
+
+## Bugs
+
+If you get an ```xml.etree.ElementTree.ParseError```:
+
+1. Did you forget to add 'xmlrpc' in the url ?
+2. or try to add or remove 'https' or 'www'.
+
+I'm working on the Exception Handling. Will fix it soon.
