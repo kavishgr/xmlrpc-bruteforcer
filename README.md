@@ -14,8 +14,8 @@
 ## Usage
 
 ```bash
-xmlrcpbruteforce.py http://wordpress.org/xmlrpc.php passwords.txt username
-xmlrpcbruteforce.py http://wordpress.org/xmlrpc.php passwords.txt userlist.txt
+python3 xmlrcpbruteforce.py http://wordpress.org/xmlrpc.php passwords.txt username
+python3 xmlrpcbruteforce.py http://wordpress.org/xmlrpc.php passwords.txt userlist.txt
 
 Try adding 'www' if nothing works.
 ```
