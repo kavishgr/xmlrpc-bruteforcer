@@ -1,6 +1,6 @@
 <p align="center"><img src="https://i.imgur.com/K1C74ti.png"></p>
 
-<h4 align="center">An XMLRPC BruteForcer for Wordpress</h4>
+<h4 align="center">An XMLRPC BruteForcer for Wordpress</h4> - Inpired by (1N3@CrowdShield) =< Great Hacker
 
 <p align="center">
   <a href="https://twitter.com/kavishgour"><b>Twitter</b></a>
