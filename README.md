@@ -9,3 +9,13 @@
   <span> - </span>
   <a href="https://kavishgr.github.io"><b>Blog</b></a>
 </p>
+
+
+## Usage
+
+```bash
+xmlrcpbruteforce.py http://wordpress.org/xmlrpc.php passwords.txt username
+xmlrpcbruteforce.py http://wordpress.org/xmlrpc.php passwords.txt userlist.txt
+
+Try adding 'www' if nothing works.
+```
