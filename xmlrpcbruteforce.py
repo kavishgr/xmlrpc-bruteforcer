@@ -11,9 +11,9 @@
 #                                         USAGE                                                       #
 #######################################################################################################
 
-# USAGE: ./mastodon http[s]://target.com/xmlrpc.php passwords.txt username     
-#        ./mastodon http[s]://target.com/wordpress/xmlrpc.php passwords.txt username
-#        ./mastodon http[s]://target.com/wp/xmlrpc.php passwords.txt username
+# USAGE: python3 xmlrpcbruteforce.py http[s]://target.com/xmlrpc.php passwords.txt username     
+#        python3 xmlrpcbruteforce.py http[s]://target.com/wordpress/xmlrpc.php passwords.txt username
+#        python3 xmlrpcbruteforce.py http[s]://target.com/wp/xmlrpc.php passwords.txt username
 
 #######################################################################################################
 #                                         IMPORTS                                                     #
