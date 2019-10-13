@@ -79,9 +79,9 @@ def main(argv):
     print(bcolors.WARNING + "Try adding 'www' if nothing works." + bcolors.ENDC)
     sys.exit(0)
 
-  url = argv[1] # SET TARGET
-  wordlist = argv[2] # SET CUSTOM WORDLIST
-  user = argv[3] # SET CUSTOM USERNAMELIST
+  url = argv[1] 
+  wordlist = argv[2] 
+  user = argv[3] 
   
   print(bcolors.OKBLUE + "" + bcolors.ENDC)
   print(bcolors.OKGREEN + """
@@ -117,13 +117,13 @@ def main(argv):
     """ + bcolors.ENDC)
   print("")
   print("")
-  print(bcolors.WARNING + "--=[Brute forcing target: " + url + "]=--" + bcolors.ENDC)
+  print(bcolors.WARNING + "--=[Target: " + url + "]=--" + bcolors.ENDC)
 
   passwords = []
   iterations = 1 
   count = 0
 
-  print(bcolors.WARNING + "--=[Starting Brute Force Enumeration...]=--" + bcolors.ENDC)
+  print(bcolors.WARNING + "--=[Starting...]=--" + bcolors.ENDC)
 
   with open(wordlist, encoding="ISO-8859-1") as f:
     for line in f:
@@ -151,6 +151,6 @@ def main(argv):
       print(bcolors.OKGREEN + "--=[Successful!]=--" + bcolors.ENDC)
       sys.exit(0)
 
-  print(bcolors.FAIL + "--=[Brute force failed]=--" + bcolors.ENDC)
+  print(bcolors.FAIL + "--=[Failed]=--" + bcolors.ENDC)
 
 main(sys.argv)
