@@ -15,7 +15,7 @@
 
 ```bash
 python3 xmlrcpbruteforce.py http://wordpress.org/xmlrpc.php passwords.txt username
-python3 xmlrpcbruteforce.py http://wordpress.org/xmlrpc.php passwords.txt userlist.txt
+python3 xmlrpcbruteforce.py http://wordpress.org/xmlrpc.php passwords.txt userlist.txt ( >>in progess<<)
 ```
 ## Bugs
 
