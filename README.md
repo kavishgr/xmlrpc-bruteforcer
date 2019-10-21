@@ -24,7 +24,7 @@ If you get an ```xml.etree.ElementTree.ParseError```:
 * Did you forget to add 'xmlrpc' in the url ?
 * Try to add or remove 'https' or 'www'.
 
-I'm working on the Exception Handling. Will fix it soon.
+I'm working on the Exception Handling and 'userlist' enumeration.
 
 ## Demo
 
