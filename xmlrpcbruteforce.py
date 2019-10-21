@@ -75,8 +75,8 @@ def main(argv):
   if len(argv) < 3:
     print(bcolors.OKGREEN + "Created by: Kavish Gour\nVersion: 1.0"+ bcolors.ENDC)
     print(bcolors.WARNING + "+ -- --=[Usage: {0} http://wordpress.org/xmlrpc.php passwords.txt username".format(argv[0]) + bcolors.ENDC)
-    print(bcolors.WARNING + "+ -- --=[Usage: {0} http://wordpress.org/xmlrpc.php passwords.txt userlist.txt".format(argv[0]) + bcolors.ENDC)
-    print(bcolors.WARNING + "Try adding 'www' if nothing works." + bcolors.ENDC)
+    print(bcolors.WARNING + "+ -- --=[For now it only works with a single username. Userlist enumeration in progress." + bcolors.ENDC)
+    print(bcolors.WARNING + "Try to add or remove 'www' if nothing works." + bcolors.ENDC)
     sys.exit(0)
 
   url = argv[1] 
