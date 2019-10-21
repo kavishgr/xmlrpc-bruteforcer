@@ -1,4 +1,4 @@
-<p align="center"><img src="https://i.imgur.com/K1C74ti.png"></p>
+<p align="center"><img src="https://i.imgur.com/K4aUmMo.png"></p>
 
 <h4 align="center">An XMLRPC BruteForcer for Wordpress  - Inpired by (1N3@CrowdShield)</h4>
 
