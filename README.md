@@ -24,12 +24,15 @@ If you get an ```xml.etree.ElementTree.ParseError```:
 * Did you forget to add 'xmlrpc' in the url ?
 * Try to add or remove 'https' or 'www'.
 
-I'm working on the Exception Handling and 'userlist' enumeration.
+## TODO
+
+* Exception Handling for xml.etree.ElementTree.ParseError
+* 'userlist' enumeration
 
 ## Demo
 
 ```bash
-MacBook-Pro:xmlrpc-bruteforcer kavish$ python3 xmlrpcbruteforce.py http://192.168.100.34/xmlrpc.php 10k-most-common.txt elliot
+MacBook-Pro: kavish$ python3 xmlrpcbruteforce.py http://192.168.100.34/xmlrpc.php 10k-most-common.txt elliot
 
 ---------------Examining Target--------------------
 
