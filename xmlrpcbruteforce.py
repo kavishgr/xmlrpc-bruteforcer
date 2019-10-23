@@ -19,11 +19,10 @@
 #                                         IMPORTS                                                     #
 #######################################################################################################
 
-import xml.etree.ElementTree as ET
-# from xml.sax.saxutils import escape
 from html import escape as esc
 import requests
 import math
+import xml.etree.ElementTree as ET
 import sys
 from termcolor import colored, cprint
 from time import sleep
