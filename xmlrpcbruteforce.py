@@ -98,7 +98,7 @@ def main(argv):
   if len(argv) < 3:
     print(bcolors.OKGREEN + "Created by: Kavish Gour\nVersion: 1.0"+ bcolors.ENDC)
     print(bcolors.WARNING + "+ -- --=[Usage: {0} http://wordpress.org/xmlrpc.php passwords.txt username".format(argv[0]) + bcolors.ENDC)
-    print(bcolors.WARNING + "+ -- --=[Usage: {0} http://wordpress.org/xmlrpc.php passwords.txt userlist.txt".format(argv[0]) + bcolors.ENDC)
+    print(bcolors.WARNING + "+ -- --=[Usage: {0} http://wordpress.org/xmlrpc.php passwords.txt userlist.txt (in progress)".format(argv[0]) + bcolors.ENDC)
     print(bcolors.WARNING + "Try adding 'www' if nothing works." + bcolors.ENDC)
     sys.exit(0)
   
