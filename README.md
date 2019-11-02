@@ -10,6 +10,9 @@
   <a href="https://kavishgr.github.io"><b>Blog</b></a>
 </p>
 
+| Available                            | in                                   |
+|--------------------------------------|--------------------------------------|
+| ![](https://i.imgur.com/1wJVDV5.png) | ![](https://i.imgur.com/z36xL8c.png) |
 
 ## Usage
 
