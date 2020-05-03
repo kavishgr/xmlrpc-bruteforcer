@@ -12,7 +12,7 @@
   <span> - </span>
   <a href="https://t.me/kavishgr"><b>Telegram</b></a>
   <span> - </span>
-  <a href="https://kavishgr.github.io"><b>Blog</b></a>
+  <a href="https://kavishgr.gitlab.io"><b>Blog</b></a>
 </p>
 
 | Available                            | in                                   |
