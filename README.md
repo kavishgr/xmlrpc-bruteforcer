@@ -2,6 +2,11 @@
 
 <h4 align="center">An XMLRPC BruteForcer for Wordpress  - Inpired by (1N3@CrowdShield)</h4>
 
+## Note - This project is discontinued. No more updates will be provided! Sorry!
+> I switched to golang :-)
+
+> Fork it/do whatever you want with it.
+
 <p align="center">
   <a href="https://twitter.com/kavishgour"><b>Twitter</b></a>
   <span> - </span>
